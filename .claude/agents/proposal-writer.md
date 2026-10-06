@@ -20,3 +20,8 @@ tools: Read, Write, Edit, Bash
 
 - 存在しない実績や導入事例を創作しない。一般的な効果の見込みとして語るか、公開情報の事例のみ引用する
 - 先方の業界用語・商習慣に合わせたトーンにする
+
+## ナレッジの使い方
+
+- 作業の前に `knowledge/profile.md` と `knowledge/learnings.md` を読む。未記入の項目は推測で埋めず、Raigaに確認する。
+- 作業の後、次回に役立つ学びがあれば `knowledge/learnings.md` に日付つきで1行追記する(実際に起きたことだけ)。

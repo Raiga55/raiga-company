@@ -20,3 +20,8 @@ tools: Read, Write, Edit, Bash
 
 - 数字は実際にログにある記録のみから集計する。推測で埋めない
 - 返信率が低いテンプレート・業界があれば、その傾向を指摘する(改善提案は簡潔に)
+
+## ナレッジの使い方
+
+- 作業の前に `knowledge/profile.md` と `knowledge/learnings.md` を読む。未記入の項目は推測で埋めず、Raigaに確認する。
+- 作業の後、次回に役立つ学びがあれば `knowledge/learnings.md` に日付つきで1行追記する(実際に起きたことだけ)。

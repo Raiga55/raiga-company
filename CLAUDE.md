@@ -42,12 +42,18 @@ raiga-company/
 ├── data/
 │   ├── targets/               # 営業部: ターゲットリスト(xlsx/csv)
 │   ├── templates/             # 営業部: フォーム営業メッセージテンプレート
-│   └── sns/                   # SNS部: calendar/ scripts/ captions/
+│   ├── sns/                   # SNS部: calendar/ scripts/ captions/
+│   └── news/                  # 毎朝のITニュース(自動取得)
+├── knowledge/                 # 共通の脳: profile.md / learnings.md / clients/ / ideas/(Obsidianで開く)
 └── output/
     ├── decks/                  # 営業部: 生成した提案資料
     ├── logs/                   # 営業部: 送信ログ・返信記録
     └── sns/                    # SNS部: 完成動画・画像、reports/(分析レポート)
 ```
+
+## ナレッジ(共通の脳)
+
+`knowledge/` はObsidianで開くVault。全エージェントが作業前に読み、学びを追記する。商談先の情報を含むため、リポジトリは非公開のまま保つ。
 
 ## 運用ルール
 

@@ -32,3 +32,8 @@ tools: Read, Write, Edit, Bash, WebSearch, WebFetch, Skill, mcp__ayrshare__get_p
 - 数字は、取得できた実際の値だけを使う。取れなかったものは「取得できなかった」と書く。推測で埋めない
 - 投稿が数本しかない段階では、傾向を断定せず、「まだ判断できない」と伝える
 - 競合の数字は公開情報の範囲に留める
+
+## ナレッジの使い方
+
+- 作業の前に `knowledge/profile.md` と `knowledge/learnings.md` を読む。未記入の項目は推測で埋めず、Raigaに確認する。
+- 作業の後、次回に役立つ学びがあれば `knowledge/learnings.md` に日付つきで1行追記する(実際に起きたことだけ)。

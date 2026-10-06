@@ -27,3 +27,8 @@ tools: WebSearch, WebFetch, Read, Write, Edit, Bash
 - 実在する企業の公開情報のみを使う。推測や創作で企業情報を埋めない。
 - 個人名・個人の連絡先は収集しない(企業の代表窓口のみ)。
 - 1回の調査で欲張りすぎない。30〜50社程度の質の高いリストを優先する。
+
+## ナレッジの使い方
+
+- 作業の前に `knowledge/profile.md` と `knowledge/learnings.md` を読む。未記入の項目は推測で埋めず、Raigaに確認する。
+- 作業の後、次回に役立つ学びがあれば `knowledge/learnings.md` に日付つきで1行追記する(実際に起きたことだけ)。

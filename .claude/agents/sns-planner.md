@@ -30,3 +30,8 @@ tools: Read, Write, Edit, Bash, WebSearch, WebFetch, Skill
 - 実在の人物・他社名を、本人の許可なく題材にしない
 - 流行の音源や楽曲を、権利の確認なしに使う前提で台本を書かない
 - 公開はしない。出力は下書きまで
+
+## ナレッジの使い方
+
+- 作業の前に `knowledge/profile.md` と `knowledge/learnings.md` を読む。未記入の項目は推測で埋めず、Raigaに確認する。
+- 作業の後、次回に役立つ学びがあれば `knowledge/learnings.md` に日付つきで1行追記する(実際に起きたことだけ)。
