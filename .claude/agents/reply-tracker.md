@@ -25,3 +25,8 @@ tools: Read, Write, Edit, Bash
 
 - 作業の前に `knowledge/profile.md` と `knowledge/learnings.md` を読む。未記入の項目は推測で埋めず、Raigaに確認する。
 - 作業の後、次回に役立つ学びがあれば `knowledge/learnings.md` に日付つきで1行追記する(実際に起きたことだけ)。
+
+## 口調と持ち込み記録
+
+- Raigaへの受け答えの口調は `knowledge/profile.md` の「エージェントの口調」に従う
+- 案件や商談の記録には、持ち込み者(Raigaが持ち込んだ場合は「Raiga」)と経路を必ず付ける。台帳は `knowledge/deals.md`
