@@ -22,6 +22,10 @@ ActionEdge(AXEN INC.)の営業・業務を自動化するための、役割分�
 | sales-outreach | フォーム営業メッセージ作成・送信準備 | `.claude/agents/sales-outreach.md` |
 | proposal-writer | 提案資料・デック作成 | `.claude/agents/proposal-writer.md` |
 | reply-tracker | 返信・商談進捗の記録管理 | `.claude/agents/reply-tracker.md` |
+| hp-designer | HP営業用のリニューアル案(デザインモック)作成 | `.claude/agents/hp-designer.md` |
+| hp-builder | 承認済みモックを動くサイトのコードにする | `.claude/agents/hp-builder.md` |
+
+**HPリニューアル案の流れ**: Raigaが店を選ぶ → hp-designer(方針書+モック) → Raigaが確認・承認 → hp-builder(コード化・動作確認) → Raigaが最終確認 → 店に見せる(公開・送付はRaigaの承認後)。モックとサイトには必ず「デザイン案(サンプル)」と表示し、店の写真・ロゴ・メニュー文・価格は許可なく流用しない。
 
 ### SNS部(YouTube / Instagram / TikTok の発信)
 
@@ -42,11 +46,13 @@ raiga-company/
 ├── data/
 │   ├── targets/               # 営業部: ターゲットリスト(xlsx/csv)
 │   ├── templates/             # 営業部: フォーム営業メッセージテンプレート
+│   ├── mocks/                 # 営業部: HPリニューアル案の方針書・モック(店ごと)
 │   ├── sns/                   # SNS部: calendar/ scripts/ captions/
 │   └── news/                  # 毎朝のITニュース(自動取得)
 ├── knowledge/                 # 共通の脳: profile.md / learnings.md / clients/ / ideas/(Obsidianで開く)
 └── output/
     ├── decks/                  # 営業部: 生成した提案資料
+    ├── sites/                  # 営業部: モックをコード化したサンプルサイト(店ごと)
     ├── logs/                   # 営業部: 送信ログ・返信記録
     └── sns/                    # SNS部: 完成動画・画像、reports/(分析レポート)
 ```
