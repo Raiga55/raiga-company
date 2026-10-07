@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>【デザイン案(サンプル)】イタリア食堂 マンマミーア</title>
+<style>
+:root{--red:#B8372B;--cream:#FBF4E6;--olive:#5E6B3A;--ink:#3A2A22}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;background:var(--cream);color:var(--ink);line-height:1.8;padding-bottom:70px}
+.sample{position:sticky;top:0;z-index:10;background:#222;color:#fff;text-align:center;font-weight:bold;padding:8px;font-size:14px}
+h1,h2{font-family:"Shippori Mincho","Hiragino Mincho ProN",serif;margin:0}
+.hero{background:repeating-linear-gradient(0deg,rgba(184,55,43,.14) 0 20px,transparent 20px 40px),repeating-linear-gradient(90deg,rgba(184,55,43,.14) 0 20px,transparent 20px 40px),var(--cream);text-align:center;padding:56px 20px 44px}
+.hero small{color:var(--olive);letter-spacing:.3em}
+.hero h1{font-size:clamp(30px,8vw,48px);color:var(--red);margin:8px 0}
+.hero p{margin:6px 0}
+.btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:20px}
+.btn{display:inline-block;padding:12px 24px;border-radius:999px;background:var(--red);color:#fff;text-decoration:none;font-weight:bold}
+.btn.alt{background:#fff;color:var(--red);border:2px solid var(--red)}
+section{max-width:760px;margin:0 auto;padding:40px 20px}
+h2{font-size:24px;color:var(--red);border-bottom:2px dotted var(--olive);padding-bottom:6px;margin-bottom:16px}
+.ph{background:#e9dcc3;border:2px dashed #b9a67f;color:#7a6a49;display:flex;align-items:center;justify-content:center;min-height:180px;border-radius:12px;text-align:center;padding:10px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:#fff;border-radius:12px;padding:16px;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.card h3{margin:0 0 6px;color:var(--olive);font-size:17px}
+.note{font-size:12px;color:#7a6a49}
+dl{display:grid;grid-template-columns:6em 1fr;gap:8px 12px;margin:0}dt{font-weight:bold;color:var(--olive)}dd{margin:0}
+.news{background:#fff;border-left:5px solid var(--red);padding:12px 16px;border-radius:8px}
+footer{background:var(--ink);color:#e9dcc3;text-align:center;padding:24px 16px;font-size:12px}
+.bar{position:fixed;bottom:0;left:0;right:0;display:flex;z-index:10}
+.bar a{flex:1;text-align:center;padding:16px 0;color:#fff;text-decoration:none;font-weight:bold}
+.bar a:first-child{background:var(--olive)}.bar a:last-child{background:var(--red)}
+@media(max-width:480px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="sample">デザイン案(サンプル)― 店の公式サイトではありません</div>
+
+<header class="hero">
+<small>ITALIAN SHOKUDO</small>
+<h1>イタリア食堂<br>マンマミーア</h1>
+<p>(例)毎日のごはんに、ほっとするイタリアン。</p>
+<p>営業 11:30〜22:00 / 土・日・祝休み<br><span class="note">※現サイト記載。最新の営業時間は要確認</span></p>
+<div class="btns"><a class="btn" href="#reserve">ご予約</a><a class="btn alt" href="tel:0332142809">03-3214-2809</a></div>
+</header>
+
+<section>
+<h2>お知らせ</h2>
+<div class="news">(例)ここに臨時休業や日替わりのご案内を載せます。<br><span class="note">更新しやすいお知らせ欄の見本です</span></div>
+</section>
+
+<section>
+<div class="ph">ここに店内・料理の写真(ご提供または撮影予定)</div>
+</section>
+
+<section id="menu">
+<h2>メニュー</h2>
+<div class="grid">
+<div class="card"><h3>ランチ</h3><p>スパゲッティを中心にご用意。<br><span class="note">(例)料理名・価格はここに入ります(未確認)</span></p></div>
+<div class="card"><h3>ディナー</h3><p>スパゲッティ、ピザ、グラタン、リゾット、アラカルトなど。<br><span class="note">(例)料理名・価格はここに入ります(未確認)</span></p></div>
+</div>
+<p class="note">カテゴリは現サイトのトップ記載に基づきます。個別の料理・価格は本案では使用していません。</p>
+</section>
+
+<section id="access">
+<h2>店舗情報・アクセス</h2>
+<dl>
+<dt>住所</dt><dd>千代田区一ツ橋1丁目1-1<br><span class="note">(建物名・階数は未確認)</span></dd>
+<dt>電話</dt><dd><a href="tel:0332142809">03-3214-2809</a></dd>
+<dt>営業時間</dt><dd>11:30〜22:00(現サイト記載・要確認)</dd>
+<dt>定休日</dt><dd>土・日・祝(現サイト記載・要確認)</dd>
+<dt>最寄駅</dt><dd>(未確認)</dd>
+</dl>
+<div class="ph" style="margin-top:16px">ここに地図(Googleマップ埋め込み予定)</div>
+</section>
+
+<section id="reserve">
+<h2>ご予約・お問い合わせ</h2>
+<p>お電話はワンタップで発信できます。ご予約フォームへの導線もここに置きます。</p>
+<div class="btns" style="justify-content:flex-start"><a class="btn" href="tel:0332142809">電話で予約する</a><a class="btn alt" href="#reserve">予約フォーム(例)</a></div>
+</section>
+
+<footer>
+<p>デザイン案(サンプル)/ 制作: ActionEdge(AXEN INC.)/ 店舗の公式サイトではありません</p>
+<p>求人情報(例)/ お知らせ(例)</p>
+</footer>
+
+<nav class="bar"><a href="tel:0332142809">電話する</a><a href="#reserve">予約する</a></nav>
+</body>
+</html>
